@@ -178,5 +178,131 @@
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/658.png",
     "description": "Greninja is known for its swift movements and ninja-like skills in battle.",
     "link": "https://www.pokemon.com/us/pokedex/greninja"
+  },
+  {
+    "name": "Togepi",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/175.png",
+    "description": "Togepi is known to bring happiness to those who care for it. It evolves into Togetic when it gains enough happiness.",
+    "link": "https://www.pokemon.com/us/pokedex/togepi"
+  },
+  {
+    "name": "Lucario",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png",
+    "description": "Lucario can read the feelings of people and is known for its fighting prowess and aura abilities.",
+    "link": "https://www.pokemon.com/us/pokedex/lucario"
+  },
+  {
+    "name": "Chespin",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/650.png",
+    "description": "Chespin is a Grass-type Pokémon that is known for its tough exterior and is always ready for an adventure.",
+    "link": "https://www.pokemon.com/us/pokedex/chespin"
+  },
+  {
+    "name": "Fletchinder",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/661.png",
+    "description": "Fletchinder can soar through the skies at incredible speeds and is known for its fiery personality.",
+    "link": "https://www.pokemon.com/us/pokedex/fletchinder"
+  },
+  {
+    "name": "Bagon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/371.png",
+    "description": "Bagon dreams of flying and is known to ram its head into rocks to try to grow wings.",
+    "link": "https://www.pokemon.com/us/pokedex/bagon"
+  },
+  {
+    "name": "Sylveon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png",
+    "description": "Sylveon is known for its ability to soothe others with its ribbons. It evolves from Eevee when it has a high friendship.",
+    "link": "https://www.pokemon.com/us/pokedex/sylveon"
+  },
+  {
+    "name": "Goomy",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/704.png",
+    "description": "Goomy is known to be the weakest Dragon-type Pokémon, but it is also very cute and friendly.",
+    "link": "https://www.pokemon.com/us/pokedex/goomy"
+  },
+  {
+    "name": "Salamence",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/373.png",
+    "description": "Salamence is the result of Bagon evolving and is known for its incredible flying speed and strength.",
+    "link": "https://www.pokemon.com/us/pokedex/salamence"
+  },
+  {
+    "name": "Tyranitar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/248.png",
+    "description": "Tyranitar is a massive Pokémon that is said to create mountains when it becomes enraged.",
+    "link": "https://www.pokemon.com/us/pokedex/tyranitar"
+  },
+  {
+    "name": "Shaymin",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/492.png",
+    "description": "Shaymin can transform between two forms and is known for its ability to purify the air around it.",
+    "link": "https://www.pokemon.com/us/pokedex/shaymin"
+  },
+  {
+    "name": "Cobalion",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/638.png",
+    "description": "Cobalion is known as the leader of the Swords of Justice and is admired for its courage and strength.",
+    "link": "https://www.pokemon.com/us/pokedex/cobalion"
+  },
+  {
+    "name": "Piplup",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/393.png",
+    "description": "Piplup is proud and dislikes to be taken care of. It can swim very well despite its small size.",
+    "link": "https://www.pokemon.com/us/pokedex/piplup"
+  },
+  {
+    "name": "Zubat",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+    "description": "Zubat is known to be a common sight in caves and uses echolocation to navigate.",
+    "link": "https://www.pokemon.com/us/pokedex/zubat"
+  },
+  {
+    "name": "Alakazam",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
+    "description": "Alakazam has an IQ of 5000 and can use its psychic powers to create powerful psychic waves.",
+    "link": "https://www.pokemon.com/us/pokedex/alakazam"
+  },
+  {
+    "name": "Sableye",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/302.png",
+    "description": "Sableye is known for its mischievous nature and can blend into the shadows to avoid detection.",
+    "link": "https://www.pokemon.com/us/pokedex/sableye"
+  },
+  {
+    "name": "Mimikyu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/778.png",
+    "description": "Mimikyu hides its true appearance under a disguise to befriend people and Pokémon.",
+    "link": "https://www.pokemon.com/us/pokedex/mimikyu"
+  },
+  {
+    "name": "Torterra",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/389.png",
+    "description": "Torterra is a massive Pokémon that creates forests on its back as it walks.",
+    "link": "https://www.pokemon.com/us/pokedex/torterra"
+  },
+  {
+    "name": "Ferrothorn",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/598.png",
+    "description": "Ferrothorn is known for its steel-like body and can withstand attacks with its tough defenses.",
+    "link": "https://www.pokemon.com/us/pokedex/ferrothorn"
+  },
+  {
+    "name": "Dragapult",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/887.png",
+    "description": "Dragapult can launch its Dreepy from its head at high speeds, making it a fearsome attacker.",
+    "link": "https://www.pokemon.com/us/pokedex/dragapult"
+  },
+  {
+    "name": "Hawlucha",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/701.png",
+    "description": "Hawlucha is known for its acrobatic fighting style, blending lucha libre wrestling with speed.",
+    "link": "https://www.pokemon.com/us/pokedex/hawlucha"
+  },
+  {
+    "name": "Cacturne",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/331.png",
+    "description": "Cacturne is a cactus Pokémon that thrives in deserts and can survive without water for long periods.",
+    "link": "https://www.pokemon.com/us/pokedex/cacturne"
   }
 ]
