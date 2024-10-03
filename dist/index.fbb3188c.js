@@ -591,7 +591,9 @@ var _pokemonCard = require("./components/PokemonCard");
 var _arrayShuffle = require("array-shuffle");
 var _arrayShuffleDefault = parcelHelpers.interopDefault(_arrayShuffle);
 const inputEl = document.querySelector("input");
+const dataRow = document.querySelector("[data-pokemon-row]");
 function renderPokemon(list) {
+    dataRow.textContent = "";
     list.forEach((pokemonObj)=>{
         (0, _pokemonCard.Pokemon)(pokemonObj);
     });
@@ -605,10 +607,13 @@ document.addEventListener("keydown", (e)=>{
     }
 });
 function handleSearch(input) {
-    console.log("Hello");
+    const filteredPokemon = (0, _dataJsonDefault.default).filter((pokemonObj)=>{
+        return pokemonObj.name.toLowerCase().includes(input);
+    });
+    renderPokemon(filteredPokemon);
 }
-inputEl.addEventListener("keypress", (e)=>{
-    handleSearch(e.target.value);
+inputEl.addEventListener("input", (e)=>{
+    handleSearch(e.target.value.trim().toLowerCase());
 });
 
 },{"./data.json":"lajNU","./components/PokemonCard":"kMkDN","array-shuffle":"jrjcr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lajNU":[function(require,module,exports) {
