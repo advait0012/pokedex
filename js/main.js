@@ -1,7 +1,6 @@
 import data from "./data.json"
 import {Pokemon} from "./components/PokemonCard"
-
-// data.forEach(Pokemon)
+import arrayShuffle from 'array-shuffle';
 
 function renderPokemon(list){
   list.forEach((pokemonObj)=>{
@@ -9,7 +8,7 @@ function renderPokemon(list){
   })
 }
 
-renderPokemon(data);
+renderPokemon(arrayShuffle((data)));
 
 
 
