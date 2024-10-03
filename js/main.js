@@ -14,8 +14,6 @@ function renderPokemon(list) {
 
 renderPokemon(arrayShuffle(data));
 
-//Add slash to active search
-
 document.addEventListener("keydown", (e) => {
   if (e.key === "/") {
     e.preventDefault();
