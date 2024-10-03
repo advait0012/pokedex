@@ -114,12 +114,6 @@
     "link": "https://www.pokemon.com/us/pokedex/lapras"
   },
   {
-    "name": "Dragonite",
-    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
-    "description": "Dragonite can fly faster than the speed of sound and is known for its intelligence.",
-    "link": "https://www.pokemon.com/us/pokedex/dragonite"
-  },
-  {
     "name": "Magikarp",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
     "description": "Magikarp is virtually useless in battle but evolves into the powerful Gyarados.",

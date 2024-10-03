@@ -10,7 +10,7 @@ export function Pokemon(i) {
               alt="${i.name}"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">${i.name}</h5>
               <p class="card-text">"${i.description}"</p>
               <a href="${i.link}" class="btn btn-primary">Visit</a>
             </div>
