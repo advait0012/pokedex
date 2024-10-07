@@ -1,19 +1,20 @@
-const dataRow = document.querySelector("[data-pokemon-row]");
-
+// const dataRow = document.querySelector("[data-pokemon-row]");
 export function Pokemon(i) {
+  const {name,link,description,image} = i
   const div = document.createElement("div");
   div.classList.add("col");
   div.innerHTML = `<div class="card">
             <img
-              src="${i.image}"
+              src="${image}"
               class="card-img-top"
-              alt="${i.name}"
+              alt="${name}"
             />
             <div class="card-body">
-              <h5 class="card-title">${i.name}</h5>
-              <p class="card-text">"${i.description}"</p>
-              <a href="${i.link}" class="btn btn-primary">Visit</a>
+              <h5 class="card-title">${name}</h5>
+              <p class="card-text">"${description}"</p>
+              <a href="${link}" class="btn btn-primary">Visit</a>
             </div>
           </div>`;
-  dataRow.appendChild(div);
+  // dataRow.appendChild(div);
+  return div;
 }
