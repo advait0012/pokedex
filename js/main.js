@@ -14,7 +14,7 @@ function renderPokemon(list) {
         "https://imgs.search.brave.com/bVXsJxVzfePeSV622nDr57W5kFg22k7gH4Gmel8tv3E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXR3/YWxscGFwZXJzLmNv/bS93YWxscGFwZXIv/ZnVsbC9mL2YvZS82/MjYyNDcuanBn",
       name: "Not Found",
       description: "Try Anther Search",
-      link: "https://sites.google.com/a/notfound.com/sites/system/app/pages/meta/domainWelcome",
+      
     });
     dataRow.appendChild(pokemon);
   }
@@ -56,5 +56,5 @@ inputEl.addEventListener("input", (e) => {
   debounceTimer = setTimeout(() => {
     handleSearch(e.target.value.trim().toLowerCase());
     handleSearch(currentInput);
-  }, 600);
+  }, 500);
 });

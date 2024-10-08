@@ -12,7 +12,8 @@ export function Pokemon(i) {
             <div class="card-body">
               <h5 class="card-title">${name}</h5>
               <p class="card-text">"${description}"</p>
-              ${!link?`<a href="${link}" class="btn btn-primary">Visit</a>`:""}
+              ${link?`<a href="${link}" class="btn btn-primary">Visit</a>`:""}
+
             </div>
           </div>`;
   // dataRow.appendChild(div);
