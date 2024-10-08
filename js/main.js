@@ -1,4 +1,5 @@
 import arrayShuffle from "array-shuffle";
+import Fuse from "fuse.js"
 import data from "./data.json";
 import { Pokemon } from "./components/PokemonCard";
 
@@ -23,10 +24,14 @@ document.addEventListener("keydown", (e) => {
 });
 
 function handleSearch(input) {
-  const filteredPokemon = data.filter((pokemonObj) => {
-    return pokemonObj.name.toLowerCase().includes(input);
+  const fuse = new Fuse(data,{
+    keys:["name","description"]
   });
+  const search = fuse.search(input)
+
+  const filteredPokemon  =  search.map((obj)=>obj.item)
   renderPokemon(filteredPokemon);
+  
 }
 
 inputEl.addEventListener("input", (e) => {
