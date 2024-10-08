@@ -1,5 +1,5 @@
 import arrayShuffle from "array-shuffle";
-import Fuse from "fuse.js"
+import Fuse from "fuse.js";
 import data from "./data.json";
 import { Pokemon } from "./components/PokemonCard";
 
@@ -8,9 +8,20 @@ const dataRow = document.querySelector("[data-pokemon-row]");
 
 function renderPokemon(list) {
   dataRow.textContent = "";
+  if (!list.length) {
+    const pokemon = Pokemon({
+      image:
+        "https://imgs.search.brave.com/bVXsJxVzfePeSV622nDr57W5kFg22k7gH4Gmel8tv3E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXR3/YWxscGFwZXJzLmNv/bS93YWxscGFwZXIv/ZnVsbC9mL2YvZS82/MjYyNDcuanBn",
+      name: "Not Found",
+      description: "Try Anther Search",
+      link: "https://sites.google.com/a/notfound.com/sites/system/app/pages/meta/domainWelcome",
+    });
+    dataRow.appendChild(pokemon);
+  }
+
   list.forEach((pokemonObj) => {
     const pokemon = Pokemon(pokemonObj);
-    dataRow.appendChild(pokemon)
+    dataRow.appendChild(pokemon);
   });
 }
 
@@ -24,16 +35,26 @@ document.addEventListener("keydown", (e) => {
 });
 
 function handleSearch(input) {
-  const fuse = new Fuse(data,{
-    keys:["name","description"]
-  });
-  const search = fuse.search(input)
+  const options = {
+    keys: ["name", "abilities"],
+    threshold: 0.5,
+  };
+  const fuse = new Fuse(data, options);
 
-  const filteredPokemon  =  search.map((obj)=>obj.item)
+  function performSearch() {
+    if (!input) return data;
+
+    const search = fuse.search(input);
+    return search.map((obj) => obj.item);
+  }
+  const filteredPokemon = performSearch();
   renderPokemon(filteredPokemon);
-  
 }
 
+let debounceTimer;
 inputEl.addEventListener("input", (e) => {
-  handleSearch(e.target.value.trim().toLowerCase());
+  debounceTimer = setTimeout(() => {
+    handleSearch(e.target.value.trim().toLowerCase());
+    handleSearch(currentInput);
+  }, 600);
 });

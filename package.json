@@ -12,7 +12,6 @@
   "dependencies": {
     "array-shuffle": "^3.0.0",
     "fuse.js": "^7.0.0",
-    "fuzzy-search": "^3.2.1",
     "parcel": "^2.12.0"
   }
 }
