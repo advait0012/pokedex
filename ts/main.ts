@@ -1,15 +1,15 @@
 import arrayShuffle from "array-shuffle";
 import Fuse from "fuse.js";
 
-import "../scss/main.scss"
+import "../scss/main.scss";
 
 import data from "./data.json";
 import { Pokemon } from "./components/PokemonCard";
 
-const inputEl = document.querySelector("input");
-const dataRow = document.querySelector("[data-pokemon-row]");
+const inputEl = document.querySelector("input") as HTMLInputElement;
+const dataRow = document.querySelector("[data-pokemon-row]") as HTMLDivElement;
 
-function renderPokemon(list) {
+function renderPokemon(list: Object[]): void {
   dataRow.textContent = "";
   if (!list.length) {
     const pokemon = Pokemon({
@@ -17,7 +17,6 @@ function renderPokemon(list) {
         "https://imgs.search.brave.com/bVXsJxVzfePeSV622nDr57W5kFg22k7gH4Gmel8tv3E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXR3/YWxscGFwZXJzLmNv/bS93YWxscGFwZXIv/ZnVsbC9mL2YvZS82/MjYyNDcuanBn",
       name: "Not Found",
       description: "Try Anther Search",
-      
     });
     dataRow.appendChild(pokemon);
   }
@@ -30,21 +29,21 @@ function renderPokemon(list) {
 
 renderPokemon(arrayShuffle(data));
 
-document.addEventListener("keydown", (e) => {
+document.addEventListener("keydown", (e: KeyboardEvent) => {
   if (e.key === "/") {
     e.preventDefault();
     inputEl.focus();
   }
 });
 
-function handleSearch(input) {
+function handleSearch(input: string): void {
   const options = {
     keys: ["name", "abilities"],
     threshold: 0.5,
   };
   const fuse = new Fuse(data, options);
 
-  function performSearch() {
+  function performSearch(): Object[] {
     if (!input) return data;
 
     const search = fuse.search(input);
@@ -54,10 +53,11 @@ function handleSearch(input) {
   renderPokemon(filteredPokemon);
 }
 
-let debounceTimer;
+let debounceTimer: ReturnType<typeof setTimeout>;
 inputEl.addEventListener("input", (e) => {
+  const target = e.target as HTMLInputElement;
   debounceTimer = setTimeout(() => {
-    handleSearch(e.target.value.trim().toLowerCase());
+    const currentInput = target.value.trim().toLowerCase();
     handleSearch(currentInput);
   }, 500);
 });
