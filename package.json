@@ -7,11 +7,14 @@
     "build": "parcel build src/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "advait0012",
   "license": "ISC",
   "dependencies": {
     "array-shuffle": "^3.0.0",
     "fuse.js": "^7.0.0",
     "parcel": "^2.12.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0"
   }
 }

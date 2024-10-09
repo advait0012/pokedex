@@ -1,5 +1,8 @@
 import arrayShuffle from "array-shuffle";
 import Fuse from "fuse.js";
+
+import "../scss/main.scss"
+
 import data from "./data.json";
 import { Pokemon } from "./components/PokemonCard";
 
