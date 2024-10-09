@@ -1,5 +1,5 @@
 // const dataRow = document.querySelector("[data-pokemon-row]");
-export function Pokemon(i) {
+export function Pokemon(i):HTMLDivElement {
   const {name,link,description,image} = i
   const div = document.createElement("div");
   div.classList.add("col");
@@ -13,7 +13,6 @@ export function Pokemon(i) {
               <h5 class="card-title">${name}</h5>
               <p class="card-text">"${description}"</p>
               ${link?`<a href="${link}" class="btn btn-primary">Visit</a>`:""}
-
             </div>
           </div>`;
   // dataRow.appendChild(div);
