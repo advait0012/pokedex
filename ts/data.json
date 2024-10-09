@@ -159,7 +159,6 @@
     "link": "https://www.pokemon.com/us/pokedex/dragonite",
     "abilities": ["Inner Focus", "Multiscale"]
   },
-
   {
     "id": 21,
     "name": "Magikarp",
@@ -263,5 +262,524 @@
     "description": "Seel's body is covered in a thick layer of blubber.",
     "link": "https://www.pokemon.com/us/pokedex/seel",
     "abilities": ["Thick Fat", "Hydration"]
+  },
+  {
+    "id": 34,
+    "name": "Dewgong",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
+    "description": "Dewgong can easily freeze water with its body temperature.",
+    "link": "https://www.pokemon.com/us/pokedex/dewgong",
+    "abilities": ["Thick Fat", "Hydration"]
+  },
+  {
+    "id": 35,
+    "name": "Grimer",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
+    "description": "Grimer's body is composed of sludge. It is not harmed by toxins.",
+    "link": "https://www.pokemon.com/us/pokedex/grimer",
+    "abilities": ["Stench", "Poison Touch"]
+  },
+  {
+    "id": 36,
+    "name": "Muk",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
+    "description": "Muk's body is composed of a powerful poison that can melt anything.",
+    "link": "https://www.pokemon.com/us/pokedex/muk",
+    "abilities": ["Stench", "Poison Touch"]
+  },
+  {
+    "id": 37,
+    "name": "Shellder",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
+    "description": "Shellder's shell is extremely hard. It can withstand a lot of force.",
+    "link": "https://www.pokemon.com/us/pokedex/shellder",
+    "abilities": ["Shell Armor", "Skill Link"]
+  },
+  {
+    "id": 38,
+    "name": "Cloyster",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
+    "description": "Cloyster's shell is hard and can withstand any attack.",
+    "link": "https://www.pokemon.com/us/pokedex/cloyster",
+    "abilities": ["Shell Armor", "Skill Link"]
+  },
+  {
+    "id": 39,
+    "name": "Gastly",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
+    "description": "Gastly is made of gas and can envelop an opponent's body.",
+    "link": "https://www.pokemon.com/us/pokedex/gastly",
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": 40,
+    "name": "Haunter",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
+    "description": "Haunter can lay a curse on an opponent that will bring misfortune.",
+    "link": "https://www.pokemon.com/us/pokedex/haunter",
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": 41,
+    "name": "Gengar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+    "description": "Gengar is said to emerge from shadows to steal the lives of those who become lost.",
+    "link": "https://www.pokemon.com/us/pokedex/gengar",
+    "abilities": ["Cursed Body", "Levitate"]
+  },
+  {
+    "id": 42,
+    "name": "Onix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
+    "description": "Onix burrows underground at high speeds and can create tunnels as it goes.",
+    "link": "https://www.pokemon.com/us/pokedex/onix",
+    "abilities": ["Rock Head", "Sturdy"]
+  },
+  {
+    "id": 43,
+    "name": "Drowzee",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
+    "description": "Drowzee can sense the aura of people's dreams and can enter their dreams.",
+    "link": "https://www.pokemon.com/us/pokedex/drowzee",
+    "abilities": ["Insomnia", "Forewarn"]
+  },
+  {
+    "id": 44,
+    "name": "Hypno",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
+    "description": "Hypno uses hypnotic abilities to make people fall asleep and steal their dreams.",
+    "link": "https://www.pokemon.com/us/pokedex/hypno",
+    "abilities": ["Insomnia", "Forewarn"]
+  },
+  {
+    "id": 45,
+    "name": "Krabby",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
+    "description": "Krabby's pincers are strong enough to crush shells and bones.",
+    "link": "https://www.pokemon.com/us/pokedex/krabby",
+    "abilities": ["Hyper Cutter", "Shell Armor"]
+  },
+  {
+    "id": 46,
+    "name": "Kingler",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
+    "description": "Kingler's claws can crush anything, and it can be found in the sea.",
+    "link": "https://www.pokemon.com/us/pokedex/kingler",
+    "abilities": ["Hyper Cutter", "Shell Armor"]
+  },
+  {
+    "id": 47,
+    "name": "Voltorb",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
+    "description": "Voltorb is known for its ability to explode, and it is often mistaken for a Poké Ball.",
+    "link": "https://www.pokemon.com/us/pokedex/voltorb",
+    "abilities": ["Soundproof", "Static"]
+  },
+  {
+    "id": 48,
+    "name": "Electrode",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png",
+    "description": "Electrode is known to explode at any moment, causing destruction.",
+    "link": "https://www.pokemon.com/us/pokedex/electrode",
+    "abilities": ["Soundproof", "Static"]
+  },
+  {
+    "id": 49,
+    "name": "Exeggcute",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
+    "description": "Exeggcute consists of six eggs that are linked psychically.",
+    "link": "https://www.pokemon.com/us/pokedex/exeggcute",
+    "abilities": ["Chlorophyll", "Harvest"]
+  },
+  {
+    "id": 50,
+    "name": "Exeggutor",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png",
+    "description": "Exeggutor's heads are said to be a blend of three Pokémon.",
+    "link": "https://www.pokemon.com/us/pokedex/exeggutor",
+    "abilities": ["Chlorophyll", "Harvest"]
+  },
+  {
+    "id": 51,
+    "name": "Cubone",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png",
+    "description": "Cubone wears the skull of its deceased mother on its head.",
+    "link": "https://www.pokemon.com/us/pokedex/cubone",
+    "abilities": ["Rock Head", "Lightning Rod"]
+  },
+  {
+    "id": 52,
+    "name": "Marowak",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png",
+    "description": "Marowak is known to be a fierce fighter, using its bone as a weapon.",
+    "link": "https://www.pokemon.com/us/pokedex/marowak",
+    "abilities": ["Rock Head", "Lightning Rod"]
+  },
+  {
+    "id": 53,
+    "name": "Hitmonlee",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png",
+    "description": "Hitmonlee is known for its powerful kicks and its ability to jump high.",
+    "link": "https://www.pokemon.com/us/pokedex/hitmonlee",
+    "abilities": ["Limber", "Inner Focus"]
+  },
+  {
+    "id": 54,
+    "name": "Hitmonchan",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png",
+    "description": "Hitmonchan is known for its boxing abilities and powerful punches.",
+    "link": "https://www.pokemon.com/us/pokedex/hitmonchan",
+    "abilities": ["Keen Eye", "Iron Fist"]
+  },
+  {
+    "id": 55,
+    "name": "Lickitung",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png",
+    "description": "Lickitung uses its long tongue to lick its opponents.",
+    "link": "https://www.pokemon.com/us/pokedex/lickitung",
+    "abilities": ["Oblivious", "Cloud Nine"]
+  },
+  {
+    "id": 56,
+    "name": "Koffing",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
+    "description": "Koffing releases toxic gases that can be deadly.",
+    "link": "https://www.pokemon.com/us/pokedex/koffing",
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": 57,
+    "name": "Weezing",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
+    "description": "Weezing is known for its ability to produce poisonous gas.",
+    "link": "https://www.pokemon.com/us/pokedex/weezing",
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": 58,
+    "name": "Rhyhorn",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
+    "description": "Rhyhorn charges in a straight line, smashing everything in its path.",
+    "link": "https://www.pokemon.com/us/pokedex/rhyhorn",
+    "abilities": ["Rock Head", "Lightning Rod"]
+  },
+  {
+    "id": 59,
+    "name": "Rhydon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png",
+    "description": "Rhydon is known for its incredible strength and hard armor.",
+    "link": "https://www.pokemon.com/us/pokedex/rhydon",
+    "abilities": ["Lightning Rod", "Rock Head"]
+  },
+  {
+    "id": 60,
+    "name": "Chansey",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png",
+    "description": "Chansey is known for its ability to heal others with its eggs.",
+    "link": "https://www.pokemon.com/us/pokedex/chansey",
+    "abilities": ["Natural Cure", "Serene Grace"]
+  },
+  {
+    "id": 61,
+    "name": "Tangela",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png",
+    "description": "Tangela's body is covered in vines that can ensnare opponents.",
+    "link": "https://www.pokemon.com/us/pokedex/tangela",
+    "abilities": ["Chlorophyll", "Leaf Guard"]
+  },
+  {
+    "id": 62,
+    "name": "Kangaskhan",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png",
+    "description": "Kangaskhan is known for carrying its baby in its pouch.",
+    "link": "https://www.pokemon.com/us/pokedex/kangaskhan",
+    "abilities": ["Scrappy", "Inner Focus"]
+  },
+  {
+    "id": 63,
+    "name": "Horsea",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png",
+    "description": "Horsea is known for its ability to swim quickly in the water.",
+    "link": "https://www.pokemon.com/us/pokedex/horsea",
+    "abilities": ["Swift Swim", "Sniper"]
+  },
+  {
+    "id": 64,
+    "name": "Seadra",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png",
+    "description": "Seadra is known for its ability to shoot water at high pressure.",
+    "link": "https://www.pokemon.com/us/pokedex/seadra",
+    "abilities": ["Poison Point", "Sniper"]
+  },
+  {
+    "id": 65,
+    "name": "Goldeen",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
+    "description": "Goldeen is known for its beautiful fins and swimming ability.",
+    "link": "https://www.pokemon.com/us/pokedex/goldeen",
+    "abilities": ["Swift Swim", "Lightning Rod"]
+  },
+  {
+    "id": 66,
+    "name": "Seaking",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png",
+    "description": "Seaking can swim quickly and is known for its horn.",
+    "link": "https://www.pokemon.com/us/pokedex/seaking",
+    "abilities": ["Swift Swim", "Lightning Rod"]
+  },
+  {
+    "id": 67,
+    "name": "Staryu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
+    "description": "Staryu can regenerate its limbs and is known for its ability to adapt.",
+    "link": "https://www.pokemon.com/us/pokedex/staryu",
+    "abilities": ["Illuminate", "Natural Cure"]
+  },
+  {
+    "id": 68,
+    "name": "Starmie",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png",
+    "description": "Starmie is known for its psychic abilities and quick swimming.",
+    "link": "https://www.pokemon.com/us/pokedex/starmie",
+    "abilities": ["Illuminate", "Natural Cure"]
+  },
+  {
+    "id": 69,
+    "name": "Mr. Mime",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png",
+    "description": "Mr. Mime is known for creating invisible barriers.",
+    "link": "https://www.pokemon.com/us/pokedex/mr-mime",
+    "abilities": ["Soundproof", "Filter"]
+  },
+  {
+    "id": 70,
+    "name": "Scyther",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png",
+    "description": "Scyther is known for its speed and sharp scythes.",
+    "link": "https://www.pokemon.com/us/pokedex/scyther",
+    "abilities": ["Swarm", "Technician"]
+  },
+  {
+    "id": 71,
+    "name": "Jynx",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
+    "description": "Jynx's weird forms of communication sound similar to human speech.",
+    "link": "https://www.pokemon.com/us/pokedex/jynx",
+    "abilities": ["Oblivious", "Forewarn"]
+  },
+  {
+    "id": 72,
+    "name": "Electabuzz",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png",
+    "description": "Electabuzz is known for generating electricity.",
+    "link": "https://www.pokemon.com/us/pokedex/electabuzz",
+    "abilities": ["Static", "Vital Spirit"]
+  },
+  {
+    "id": 73,
+    "name": "Magmar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png",
+    "description": "Magmar's body is covered in flames.",
+    "link": "https://www.pokemon.com/us/pokedex/magmar",
+    "abilities": ["Flame Body", "Vital Spirit"]
+  },
+  {
+    "id": 74,
+    "name": "Pinsir",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
+    "description": "Pinsir is known for its pincers and incredible strength.",
+    "link": "https://www.pokemon.com/us/pokedex/pinsir",
+    "abilities": ["Hyper Cutter", "Mold Breaker"]
+  },
+  {
+    "id": 75,
+    "name": "Tauros",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png",
+    "description": "Tauros is known for its aggressive nature and charging attacks.",
+    "link": "https://www.pokemon.com/us/pokedex/tauros",
+    "abilities": ["Intimidate", "Anger Point"]
+  },
+  {
+    "id": 76,
+    "name": "Magikarp",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
+    "description": "Magikarp is virtually useless in battle but evolves into the powerful Gyarados.",
+    "link": "https://www.pokemon.com/us/pokedex/magikarp",
+    "abilities": ["Swift Swim", "Rain Dish"]
+  },
+  {
+    "id": 77,
+    "name": "Gyarados",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
+    "description": "Gyarados is known for its ferocious temper and incredible power.",
+    "link": "https://www.pokemon.com/us/pokedex/gyarados",
+    "abilities": ["Intimidate", "Moxie"]
+  },
+  {
+    "id": 78,
+    "name": "Lapras",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
+    "description": "Lapras ferries people across bodies of water with its gentle temperament.",
+    "link": "https://www.pokemon.com/us/pokedex/lapras",
+    "abilities": ["Water Absorb", "Shell Armor"]
+  },
+  {
+    "id": 79,
+    "name": "Ditto",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
+    "description": "Ditto can transform into any Pokémon it sees.",
+    "link": "https://www.pokemon.com/us/pokedex/ditto",
+    "abilities": ["Limber"]
+  },
+  {
+    "id": 80,
+    "name": "Eevee",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+    "description": "Eevee has an unstable genetic makeup that suddenly mutates due to the environment.",
+    "link": "https://www.pokemon.com/us/pokedex/eevee",
+    "abilities": ["Adaptability", "Run Away"]
+  },
+  {
+    "id": 81,
+    "name": "Vaporeon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png",
+    "description": "Vaporeon can melt into water, making it hard to capture.",
+    "link": "https://www.pokemon.com/us/pokedex/vaporeon",
+    "abilities": ["Water Absorb", "Hydration"]
+  },
+  {
+    "id": 82,
+    "name": "Jolteon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png",
+    "description": "Jolteon's fur can generate electricity.",
+    "link": "https://www.pokemon.com/us/pokedex/jolteon",
+    "abilities": ["Volt Absorb", "Quick Feet"]
+  },
+  {
+    "id": 83,
+    "name": "Flareon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png",
+    "description": "Flareon's body temperature can rise to high levels.",
+    "link": "https://www.pokemon.com/us/pokedex/flareon",
+    "abilities": ["Flash Fire", "Guts"]
+  },{
+    "id": 84,
+    "name": "Porygon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png",
+    "description": "Porygon is a virtual Pokémon that can convert its body into data.",
+    "link": "https://www.pokemon.com/us/pokedex/porygon",
+    "abilities": ["Trace", "Download"]
+  },
+  {
+    "id": 85,
+    "name": "Omanyte",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png",
+    "description": "Omanyte is a fossil Pokémon that can retract its body into its shell.",
+    "link": "https://www.pokemon.com/us/pokedex/omanyte",
+    "abilities": ["Swift Swim", "Shell Armor"]
+  },
+  {
+    "id": 86,
+    "name": "Omastar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
+    "description": "Omastar is known for its powerful tentacles and swimming speed.",
+    "link": "https://www.pokemon.com/us/pokedex/omastar",
+    "abilities": ["Swift Swim", "Shell Armor"]
+  },
+  {
+    "id": 87,
+    "name": "Kabuto",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png",
+    "description": "Kabuto is a fossil Pokémon that is known for its hard shell.",
+    "link": "https://www.pokemon.com/us/pokedex/kabuto",
+    "abilities": ["Swift Swim", "Battle Armor"]
+  },
+  {
+    "id": 88,
+    "name": "Kabutops",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png",
+    "description": "Kabutops is known for its scythe-like arms and sharp vision.",
+    "link": "https://www.pokemon.com/us/pokedex/kabutops",
+    "abilities": ["Swift Swim", "Battle Armor"]
+  },
+  {
+    "id": 89,
+    "name": "Aerodactyl",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
+    "description": "Aerodactyl is known for its speed and razor-sharp fangs.",
+    "link": "https://www.pokemon.com/us/pokedex/aerodactyl",
+    "abilities": ["Pressure", "Unnerve"]
+  },
+  {
+    "id": 90,
+    "name": "Snorlax",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+    "description": "Snorlax eats nearly 900 pounds of food every day.",
+    "link": "https://www.pokemon.com/us/pokedex/snorlax",
+    "abilities": ["Immunity", "Thick Fat"]
+  },
+  {
+    "id": 91,
+    "name": "Articuno",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
+    "description": "Articuno is a legendary Pokémon known for its ice powers.",
+    "link": "https://www.pokemon.com/us/pokedex/articuno",
+    "abilities": ["Pressure", "Snow Cloak"]
+  },
+  {
+    "id": 92,
+    "name": "Zapdos",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
+    "description": "Zapdos is a legendary Pokémon known for its electric attacks.",
+    "link": "https://www.pokemon.com/us/pokedex/zapdos",
+    "abilities": ["Pressure", "Static"]
+  },
+  {
+    "id": 93,
+    "name": "Moltres",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png",
+    "description": "Moltres is a legendary Pokémon known for its fire abilities.",
+    "link": "https://www.pokemon.com/us/pokedex/moltres",
+    "abilities": ["Pressure", "Flame Body"]
+  },
+  {
+    "id": 94,
+    "name": "Dratini",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png",
+    "description": "Dratini is a dragon Pokémon known for its beauty and grace.",
+    "link": "https://www.pokemon.com/us/pokedex/dratini",
+    "abilities": ["Shed Skin"]
+  },
+  {
+    "id": 95,
+    "name": "Dragonair",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png",
+    "description": "Dragonair is known for its mystical powers and elegant form.",
+    "link": "https://www.pokemon.com/us/pokedex/dragonair",
+    "abilities": ["Shed Skin"]
+  },
+  {
+    "id": 96,
+    "name": "Dragonite",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
+    "description": "Dragonite can fly faster than the speed of sound and is known for its intelligence.",
+    "link": "https://www.pokemon.com/us/pokedex/dragonite",
+    "abilities": ["Inner Focus", "Multiscale"]
+  },
+  {
+    "id": 97,
+    "name": "Mewtwo",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+    "description": "Mewtwo was created by recombining Mew's genes and is known for its psychic abilities.",
+    "link": "https://www.pokemon.com/us/pokedex/mewtwo",
+    "abilities": ["Pressure", "Unnerve"]
+  },
+  {
+    "id": 98,
+    "name": "Mew",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
+    "description": "Mew is a mythical Pokémon known for its ability to learn any move.",
+    "link": "https://www.pokemon.com/us/pokedex/mew",
+    "abilities": ["Synchronize"]
   }
 ]
