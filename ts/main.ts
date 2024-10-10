@@ -6,6 +6,15 @@ import "../scss/main.scss";
 import data from "./data.json";
 import { Pokemon } from "./components/PokemonCard";
 
+interface Pokeemon{
+  id:number;
+  name:string;
+  image:string;
+  description:string;
+  link:string;
+  abilities:string[];
+}
+
 const inputEl = document.querySelector("input") as HTMLInputElement;
 const dataRow = document.querySelector("[data-pokemon-row]") as HTMLDivElement;
 
@@ -21,10 +30,14 @@ function renderPokemon(list: Object[]): void {
     dataRow.appendChild(pokemon);
   }
 
+  const fragment = document.createDocumentFragment();
+
   list.forEach((pokemonObj) => {
     const pokemon = Pokemon(pokemonObj);
-    dataRow.appendChild(pokemon);
+    fragment.appendChild(pokemon)
+    
   });
+  dataRow.appendChild(fragment);
 }
 
 renderPokemon(arrayShuffle(data));
@@ -43,7 +56,7 @@ function handleSearch(input: string): void {
   };
   const fuse = new Fuse(data, options);
 
-  function performSearch(): Object[] {
+  function performSearch(): Pokeemon[] {
     if (!input) return data;
 
     const search = fuse.search(input);
