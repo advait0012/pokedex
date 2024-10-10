@@ -1,5 +1,7 @@
+import {Pokemon} from "../interfaces/Pokemon"
+
 // const dataRow = document.querySelector("[data-pokemon-row]");
-export function Pokemon(i):HTMLDivElement {
+export function PokemonCard(i:Pokemon):HTMLDivElement {
   const {name,link,description,image} = i
   const div = document.createElement("div");
   div.classList.add("col");
