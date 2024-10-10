@@ -8,6 +8,7 @@ export function Pokemon(i):HTMLDivElement {
               src="${image}"
               class="card-img-top"
               alt="${name}"
+              loading="lazy"
             />
             <div class="card-body">
               <h5 class="card-title">${name}</h5>
